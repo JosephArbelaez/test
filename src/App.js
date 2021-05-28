@@ -3,7 +3,8 @@ import './App.css';
 
 function App() {
   return (
-      <div>
+    <div className="App">
+      <header className="App-header"></header>
         <div className="App">
           <Page page = {page} pageChange={this.pageChange}/>
           </div>
